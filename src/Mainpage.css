@@ -1,0 +1,23 @@
+.mainContainer {
+    margin: auto 30px;
+    padding: 20px;
+}
+
+.Card {
+    border: 2px solid black;
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+
+.title {
+    font-size: 25px;
+    width: 100%;
+}
+.experience-flex {
+    display: flex;
+    align-items: center;
+}
+
+.experience-flex img {
+    margin-right: 20px; /* Add margin between the image and text */
+}

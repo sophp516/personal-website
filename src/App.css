@@ -1,0 +1,33 @@
+:root {
+  width: 100%;
+  height: 100%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  border-bottom: 2px solid black;
+}
+
+navbar > p {
+  padding-left: 10px;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.navButtons {
+  display: inline-block
+}
