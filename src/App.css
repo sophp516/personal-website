@@ -6,18 +6,20 @@
 body, html {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
-navbar {
+.navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   height: 30px;
   border-bottom: 2px solid black;
 }
 
-navbar > p {
+.navbar > p {
   padding-left: 10px;
 }
 

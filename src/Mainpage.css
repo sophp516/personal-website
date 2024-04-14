@@ -1,6 +1,6 @@
 .mainContainer {
-    margin: auto 30px;
-    padding: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 .Card {
@@ -13,6 +13,7 @@
     font-size: 25px;
     width: 100%;
 }
+
 .experience-flex {
     display: flex;
     align-items: center;
@@ -20,4 +21,8 @@
 
 .experience-flex img {
     margin-right: 20px; /* Add margin between the image and text */
+}
+
+.social-icon {
+    margin-bottom: 2px;
 }

@@ -5,6 +5,7 @@ import {
 import './App.css'
 import Mainpage from './Mainpage';
 import Portfolio from './Portfolio';
+import Weather from './Weather';
 
 const App = () => {
 
@@ -12,16 +13,17 @@ const App = () => {
 
   return (
     <Router>
-      <navbar>
+      <div className="navbar">
         <p className="navName">Sophie Park</p>
         <div className="navButtons">
           <Link to="/mainpage"><button>HOME</button></Link>
           <Link to="/portfolio"><button>PORTFOLIO</button></Link>
         </div>
-      </navbar>
+      </div>
       <Routes>
         <Route path="/mainpage" element={<Mainpage />}></Route>
         <Route path="/portfolio" element={<Portfolio />}></Route>
+        <Route path="/weather" element={<Weather />}></Route>
         <Route path="*" element={<Navigate to="/mainpage" />}></Route>
       </Routes>
     </Router>

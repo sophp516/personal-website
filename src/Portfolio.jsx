@@ -43,7 +43,7 @@ const Portfolio = () => {
                     {project.tool.length != 0 && 
                         <p className="projectTool">
                             {project.tool.map((item, index) => (
-                                <span key={index}>{item} </span>
+                                <span className="tool" key={index}>{item} </span>
                             ))}
                         </p>}
                 </div>
